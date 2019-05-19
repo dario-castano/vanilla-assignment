@@ -1,0 +1,61 @@
+:root {
+    --color-primary: #a0a3fa;
+    --color-primary-shadow-light: #7f82c7;
+    --color-primary-shadow-dark: #4e507a;
+    --color-secondary: #555bfb;
+    --color-secondary-shadow: #333699;
+}
+
+body{
+    background-color: var(--color-primary-shadow-dark);
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: var(--color-primary);
+}
+
+main {
+    background-color: whitesmoke;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    background-color: whitesmoke;
+    flex: 1;
+    overflow-y: auto;
+}
+
+a:hover {
+    color: wheat;
+}
+
+figure {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    margin: 5px 5px;
+    padding: 10px 10px;
+    background-color: wheat;
+    text-align: center;
+    flex: 1;
+}
